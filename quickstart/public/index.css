@@ -7,23 +7,25 @@ p {
 }
 
 body {
-  background: #272726;
+  background: #ECF0F5;
 }
 
 div#remote-media {
-  height: 43%;
-  width: 100%;
-  background-color: #fff;
+  height: 208px;
+  width: 900px;
+  background-color: #ECF0F5;
   text-align: center;
   margin: auto;
 }
 
 div#remote-media video {
+  
   border: 1px solid #272726;
-  margin: 3em 2em;
+  margin: -4em 0em;
   height: 70%;
-  max-width: 27% !important;
-  background-color: #272726;
+  max-width: 35% !important;
+  background-color: #ECF0F5;
+  z-index: 10;
   background-repeat: no-repeat;
 }
 
@@ -50,7 +52,7 @@ div#controls p.instructions {
   font-family: Helvetica-LightOblique, Helvetica, sans-serif;
   font-style: oblique;
   font-size: 1.25em;
-  color: #777776;
+  color: #367FA9;
 }
 
 div#controls button {
@@ -114,9 +116,9 @@ div#controls div#room-controls input {
 }
 
 div#controls div#room-controls button {
-  color: #fff;
+  color: #367FA9;
   background: 0 0;
-  border: 1px solid #686865;
+  border: 1px solid #ECF0F5;
 }
 
 div#controls div#room-controls button#button-leave {
@@ -134,7 +136,7 @@ div#controls div#log {
 }
 
 div#controls div#log p {
-  color: #686865;
+  color: #ECF0F5;
   font-family: 'Share Tech Mono', 'Courier New', Courier, fixed-width;
   font-size: 1.25em;
   line-height: 1.25em;
