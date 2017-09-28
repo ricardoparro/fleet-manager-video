@@ -120,6 +120,7 @@ div#controls div#room-controls button {
   color: #367FA9;
   background: 0 0;
   border: 1px solid #ECF0F5;
+  font-size: xx-large;
 }
 
 div#controls div#room-controls button#button-leave {
